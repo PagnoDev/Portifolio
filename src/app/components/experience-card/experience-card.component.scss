@@ -1,0 +1,34 @@
+.chips {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    height: fit-content;
+
+    // border: 1px solid red;
+
+    background: rgba(0, 7, 98, 0.107);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.8px);
+    -webkit-backdrop-filter: blur(7.8px);
+
+    .leftCol {
+        width: 30%;
+        // border: 1px solid green;
+        padding: 2rem;
+    }
+
+    .rightCol {
+        width: 70%;
+        // border: 1px solid orange;
+        padding: 2rem;
+
+        h3 {
+            margin: 0;
+            a {
+                color: #FFF;
+            }
+        }
+    }
+}
