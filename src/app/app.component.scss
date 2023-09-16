@@ -3,16 +3,17 @@ div.root {
     flex-direction: row;
     justify-content: space-evenly;
 
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 
     header.presentation {
-        position: static!important;
+        position: static !important;
         width: 40%;
         height: auto;
-        // border: 1px solid red;
 
         padding: 5rem 1.5rem;
+        padding-left: 10rem;
 
         section.info {
 
@@ -128,6 +129,7 @@ div.root {
 
         &.carrerPresentation {
             margin-bottom: 9rem;
+
             p {
                 color: rgb(148 163 184/1);
                 text-align: justify;
@@ -143,4 +145,52 @@ div.root {
             }
         }
     }
+}
+
+.experienceTimeLine {
+    padding-bottom: 40vh;
+
+    a {
+        color: rgb(148 163 184);
+        position: relative;
+
+        &.link:hover {
+            color: white;
+        }
+    }
+
+    .link {
+        display: inline-block;
+        margin: 2em
+    }
+
+    /* linkone */
+    .link a:before,
+    .link a:after {
+        content: '';
+        border-bottom: solid 1px red;
+        position: absolute;
+        bottom: 0;
+        width: 0;
+    }
+
+    .link a:before {
+        left: 0;
+    }
+
+    .link a:after {
+        right: 0;
+    }
+
+    .link a:before,
+    .link a:after {
+        -webkit-transition: all 0.2s ease;
+        transition: all .4s ease;
+    }
+
+    .link a:hover:before,
+    .link a:hover:after {
+        width: 50%;
+    }
+
 }

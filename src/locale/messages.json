@@ -1,0 +1,14 @@
+{
+  "locale": "pt",
+  "translations": {
+    "my-name": "Pagno Dev",
+    "stack": "Angular/.Net Developer",
+    "effect-phrase": " Transformando linhas de código em soluções inovadoras, {$LINE_BREAK} Construindo o mundo, um projeto por vez.",
+    "about": "Sobre",
+    "experience": "Carreira",
+    "projects": "Projetos",
+    "resume": "Sou um entusiasta da programação com habilidades em C# e uma vasta experiência no desenvolvimento de software. Possuo excelentes habilidades analíticas, sou pró-ativo e comunicativo, além de ser um aprendiz ávido. Minha jornada começou no suporte técnico, onde aprimorei minhas habilidades em documentação, análise de fluxo de desenvolvimento e teste de software. Com o tempo, avancei para a função de Junior Tester, fortalecendo minha compreensão de processos eficientes de desenvolvimento e aprimorando a qualidade dos produtos. Atualmente, atuo como desenvolvedor C# na NDD Tech Brasil, onde aplico minha perícia técnica em projetos desafiadores. Além disso, estou buscando um diploma em Engenharia de Software na Unicesumar, aprofundando-me em áreas como engenharia de requisitos, arquitetura de software e teste de software. Com um histórico sólido e um desejo constante de aprendizado, estou sempre pronto para enfrentar novos desafios e contribuir para projetos inovadores. Se você está interessado em colaborar ou expandir sua rede profissional, não hesite em me contatar. Ate breve!{$START_TAG_SPAN}Teste de destaque no texto{$CLOSE_TAG_SPAN}",
+    "see-more": " Ver Mais ",
+    "1737753151350322492": "{$PH}"
+  }
+}

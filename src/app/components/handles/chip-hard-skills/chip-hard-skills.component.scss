@@ -1,13 +1,14 @@
-.customChip {
-    background-color: rgba(33, 40, 142, 0.107);
-    padding: .5rem;
-    border-radius: 100px;
-    text-align: center;
+p {
+    .customChip {
+        background-color: rgba(33, 40, 142, 0.107);
+        padding: .5rem;
+        border-radius: 100px;
+        text-align: center;
 
-    color: rgb(137, 145, 255);
-    border: .5px solid rgba(137, 145, 255, 0.263);
-    font-weight: 600;
-    font-weight: 1.5;
+        color: rgb(137, 145, 255);
+        border: .5px solid rgba(137, 145, 255, 0.263);
+        font-weight: 1.5;
 
-    margin-left: 1rem;
+        margin-left: 1rem;
+    }
 }

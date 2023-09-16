@@ -4,15 +4,12 @@
     </section>
     <section class="rightCol">
         <div class="infoContent">
-            <h3><a href="#">{{company}}</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore odio harum minus voluptas vero
-                deserunt fugiat repellendus saepe repudiandae autem, reiciendis similique eaque beatae iusto eos
-                aspernatur voluptate ab corrupti.</p>
+            <h3><a href="#">{{occupation}} - {{company}}</a></h3>
+            <p>{{description}}</p>
         </div>
         <br>
         <div class="chipsItens">
-            <app-chip-hard-skills startDate="2023" *ngFor="let chip of chipList"
-                [content]="chip"></app-chip-hard-skills>
+            <app-chip-hard-skills *ngFor="let chip of chipList" [content]="chip"></app-chip-hard-skills>
         </div>
     </section>
 </div>

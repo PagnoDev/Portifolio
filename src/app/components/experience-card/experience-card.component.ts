@@ -6,8 +6,10 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./experience-card.component.scss']
 })
 export class ExperienceCardComponent {
+  @Input() occupation!: string;
+  @Input() company!: string;
+  @Input() description!: string;
   @Input() chipList!: string[];
   @Input() startYear!: string;
-  @Input() lastYear: string = "Present";
-  @Input() company!: string;
+  @Input() lastYear!: string;
 }

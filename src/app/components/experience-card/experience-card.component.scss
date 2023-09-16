@@ -26,9 +26,17 @@
 
         h3 {
             margin: 0;
+
             a {
                 color: #FFF;
             }
+        }
+
+        .chipsItens {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: safe;
         }
     }
 }
